@@ -55,20 +55,20 @@ Mi site contiene lo siguiente:
 
 1) DNI & Telefono (Unit Tests): 
 - En DNI compruebo estas casuisticas:
--- Que ocurre si utilizo un DNI invalido
--- Que ocurre si entro un DNI en un formato incorrecto
--- Que ocurre si la última letra en DNI es una invalida
--- Caso perfecto
+1) Que ocurre si utilizo un DNI invalido
+2) Que ocurre si entro un DNI en un formato incorrecto
+3) Que ocurre si la última letra en DNI es una invalida
+4) Caso perfecto
 - En Telefono compruebo estas casuisticas:
--- Que ocurre si pongo un telefono en un formato incorrecto
--- Caso perfecto
+1) Que ocurre si pongo un telefono en un formato incorrecto
+2) Caso perfecto
 
 2) ProcessController (E2E Tests) (2 endpoints)
 Se comprueba para ambos tipos:
--- Datos introducidos incorrectos
--- Datos introducidos vacios
--- Dirección incorrecto
--- Caso perfecto
+1) Datos introducidos incorrectos
+2) Datos introducidos vacios
+3) Dirección incorrecto
+4) Caso perfecto
   
 ### Contenido (Extra)
 
