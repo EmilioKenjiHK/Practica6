@@ -53,7 +53,7 @@ Mi site contiene lo siguiente:
 
   
 
-- DNI & Telefono (Unit Tests): 
+### DNI & Telefono (Unit Tests): 
 - En DNI compruebo estas casuisticas:
 1) Que ocurre si utilizo un DNI invalido
 2) Que ocurre si entro un DNI en un formato incorrecto
@@ -63,7 +63,7 @@ Mi site contiene lo siguiente:
 1) Que ocurre si pongo un telefono en un formato incorrecto
 2) Caso perfecto
 
-- ProcessController (E2E Tests) (2 endpoints)
+### ProcessController (E2E Tests) (2 endpoints)
 - Se comprueba para ambos tipos:
 1) Datos introducidos incorrectos
 2) Datos introducidos vacios
