@@ -1,19 +1,11 @@
 package com.icai.practicas.controller;
 
-import com.icai.practicas.controller.ProcessController.DataRequest;
-import com.icai.practicas.controller.ProcessController.DataResponse;
-import com.icai.practicas.service.ProcessService;
-import com.icai.practicas.service.ProcessService.ProcessStep1Request;
-import com.icai.practicas.service.ProcessService.ProcessStep1Response;
-
-import org.springframework.http.MediaType;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.web.server.LocalServerPort;
@@ -21,7 +13,6 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.client.ResourceAccessException;
 
 import static org.assertj.core.api.BDDAssertions.then;
 import static org.junit.jupiter.api.Assertions.assertThrows;
